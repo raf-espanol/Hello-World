@@ -1,0 +1,30 @@
+GIT notes:
+
++created this file to keep track of git issues/info:
+
+user.name "raf-espanol"
+user.email "rafespanol@yahoo.com"
+https://github.com/raf-espanol/Hello-World.git
+
+see 'git clone' command line in history belwo...
+
+
+550  file .gitconfig
+  551  cat .gitconfig
+  552  git config --global user.name "raf-espanol"
+  553  git config --global user.mail "rafespanol@yahoo.com"
+  554  pwd
+  555  cd src
+  556  ls
+  557  cd repo
+  558  ls
+  559  cd personal
+  560  mkdir raf-espanol
+  561  cd raf-espanol/
+  562  ls
+  563  git clone https://github.com/raf-espanol/Hello-World.git
+  564  ls
+  565  cd Hello-World/
+  566  ls
+  567  cat README.md
+  568  history
