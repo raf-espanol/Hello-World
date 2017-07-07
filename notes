@@ -12,7 +12,7 @@ see 'git clone' command line in history belwo...
 550  file .gitconfig
   551  cat .gitconfig
   552  git config --global user.name "raf-espanol"
-  553  git config --global user.mail "rafespanol@yahoo.com"
+  553  git config --global user.mail "rafespanol@yahoo.com" <=== wrong, should be user.email...duh!
   554  pwd
   555  cd src
   556  ls
