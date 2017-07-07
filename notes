@@ -28,3 +28,16 @@ see 'git clone' command line in history belwo...
   566  ls
   567  cat README.md
   568  history
+
++to create new directory in repo using github.com web page use 'create new file' and type a '/' after the file name is entered to create a directory. you can create multiple directories by subsequently putting a '/' after each name.
+
+
++ add a file"
+
+git add filename.c or git add . (all file in this directory will be added"
+
+next commit new files or changes:
+
+git commit -m "this is a message to describe what was added or changed with these files" filetobeadded.txt
+
+
