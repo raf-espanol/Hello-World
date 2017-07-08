@@ -1,1 +1,19 @@
 #code snippets useful for linxu shell scripting:
+
+
+1. checking to see if files exist and then looking for a specific name:
+
+if [ -f /etc/motd ];then
+        APP_LINE=`cat /etc/motd | grep Applications:`
+        last_result=`echo $?`
+        if [ $last_result == "1" ];then
+                echo "No Application: line found in /etc/motd"
+        else
+                APP_NAME=`echo $APP_LINE | awk -F: '{ print $2 }'`
+                echo "Application Name: $APP_NAME"
+        fi
+
+
+else
+        echo "!!! no etc/motd found"
+fi
