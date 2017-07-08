@@ -60,3 +60,4 @@ SISAdmins-MacBook-Pro-6:Hello-World sisuser$
 +added rafespanol and rafaelespanolhgst to this repo as collaborators.
   you need to change ~/.gitconfig to one of these to be able to git push code to this repo. eg. cp .gitconfig.rafaelespanol.hgst .gitconfig
 
++for rafael-espanol, using rafespanol as repo user. modified .gitconfig file
