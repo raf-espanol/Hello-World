@@ -1,0 +1,6 @@
+1. pip install pymongo
+2. pip install mongoengine
+3. install mongodb - I used 3.5.3 for windows 7, 3.6 hangs during install
+4. python 2.7.9 on windows 7
+5. mongodb...x64...msi download.
+
