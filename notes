@@ -65,3 +65,5 @@ SISAdmins-MacBook-Pro-6:Hello-World sisuser$
 +saving login/password from command line:
 git config credential.helper store
 
+
++login/pw=raf-esp.../sons
