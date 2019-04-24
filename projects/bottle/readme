@@ -1,0 +1,4 @@
+to run this web example, use: 'sudo python webtest.py'
+1. under views directory you need test.tpl (web test template made using seamonkey WYSIWYG 'compose page' tool )
+2. index2.tpl is used to call up test.tpl and provide content and headers/menu links /footer etc.
+3. this is an example web app using bottle.
